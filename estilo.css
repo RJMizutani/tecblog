@@ -1,0 +1,166 @@
+*{
+    /*zerando as configurações padrões da página*/
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho{
+/*Formatação do cabeçalho*/
+text-align: center;
+padding: 20px;
+background-color: #f7b600;
+
+}
+
+
+.white{
+    /*parte branca da logo da página*/
+    color: white;
+}
+
+h1{
+    /*formatação de todos os titúlos H1*/
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+#titulo-noticias{
+    display: block;
+    background: none;
+    color: #f7b600;
+    padding: 1.1%;
+    font-size: 2.0em;
+    
+}
+
+h2{
+    /*formatação de todos os titúlos H2*/
+    display: block;
+    background: black;
+    color: #f7b600;
+    padding: 1.1%;
+
+}
+
+
+a{
+    /*Formatação geral dos link´s*/
+    text-decoration: underline;
+    padding: 10px;
+
+}
+
+    a:link, a:visited{
+    /*Formatação geral dos link´s*/    
+    color: #FFF;
+
+
+}
+
+    a:hover{
+    /*Formatação geral dos link´s*/    
+    color: #f7b600;
+    background: whitesmoke;
+    text-decoration: none;
+    border: solid rgb(123, 108, 124);
+}
+
+#cabecalho a:link, #cabecalho a:visited{
+    /*Formatação dos link´s do cabeçalho*/
+    color: #FFF;
+    text-decoration: none;
+
+
+}
+
+#cabecalho a:hover{
+    /*Formatação dos link´s do cabeçalho*/
+    color: #f7b600;
+    background: black;
+    text-decoration: none;
+    padding: 3px;
+}
+
+body{
+    /*formatação geral do corpo*/
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: rgb(218, 213, 213);
+    
+}  
+
+.area-principal{
+    /*layout da area principal da página*/
+    width: 1360px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#noticias, #barra-lateral{
+    /*Plano de fundo do layout da página*/
+    background: grey;     
+}
+
+#noticias{
+    /*abertura das noticías com o principal destaque do site*/
+    width: 700px;
+    float: left;
+    margin-left: 88px;
+    padding: 1%;
+    margin-bottom: 15px;
+    
+}
+
+.data-postagem{
+    /*data em sub-texto localizada na abertura das noticias*/
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#barra-lateral{
+/*menu de navegação lateral e noticias secundárias*/
+width: 400px;
+float: right;
+margin-right: 130px;
+
+}
+
+.barra-1{
+    /*primeiro enquadramento da barra lateral*/
+    font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 2px dotted #CCC;
+}
+
+.barra-2{
+    /*segundo enquadramento da barra lateral*/
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
+}
+
+.categorias, a:link, .categorias a:visited{
+    /*configuração dos link´s do menu lateral*/
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.categorias, a:hover{
+    /*configuração dos link´s do menu lateral*/
+    text-decoration: underline;
+
+}
+
+
+
+.rodape{
+    /*Rodapé*/
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #CCC;
+}

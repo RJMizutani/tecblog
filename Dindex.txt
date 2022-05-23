@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>TecBlog</title>
+
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+
+
+<body>
+
+    <header id="cabecalho">
+
+        <div>    
+        <h1 class="area-logo">Tec<span class="white">Blog</span></h1><br>
+        <a>Home</a>
+        <a>Jogos</a>
+        <a>Celulares</a>
+        <a>Informática</a>
+        <a>Eletrônicos</a>
+        </div>
+
+    </header>
+
+
+
+    <div class="area-principal">
+<!--INICIO POSTAGEM-->
+        <div id="noticias">
+
+            <h2 id="titulo-noticias">Título da postagem 1</h2>
+
+            <span class="data-postagem">Data da postagem</span>
+
+            <br>
+
+            <img src="arquivos/imagens/imagem2.jpg" alt="Foto-post1">
+
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            </p>
+            <a>leia mais...</a>
+
+        </div>
+
+        <div id="barra-lateral">
+
+            <h2>Postagens recentes</h2>
+                <div class="barra-1">
+                    <p style="border: bottom;">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    </p>
+                    <a>leia mais...</a>
+                </div>    
+                
+                <div class="barra-2">
+                    <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    </p>
+                    <a>leia mais...</a>
+                </div>
+
+                <h2>Categorias</h2>
+
+                <div class="categorias">
+
+                    <a href="">Jogos</a>
+                    <a href="">Celulares</a>
+                    <a href="">Informática</a>
+                    <a href="">Eletrônicos</a>
+
+                </div>
+
+            </div>
+<!--FIM POSTAGEM-->        
+    </div>
+
+<br><br><br>
+
+    <footer class="rodape">Todos os direitos reservados</footer>
+
+
+</body>
+
+
+
+</html>
